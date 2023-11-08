@@ -25,4 +25,3 @@ form.addEventListener("submit", (e)=>{
     }else{
         resp1.innerText = `Tipo: Escaleno`
     }
-})
