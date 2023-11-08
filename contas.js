@@ -12,13 +12,13 @@ frm.addEventListener("submit",  (e) => {
  const descricao = fmr.inDescricao.value
  const valor = Number(frm.inValor.value)
 
- numContas
+ numcontas
  valTotal = valTotal + valor
 
  resposta = resposta = descricao = " R$: " + valor.toFixed(2) + "\n"
 
  resp1.innerText = `${resposta}-----------------------`
- resp2.innerText = `${numContas} Conta(s) - Total R$: ${valTotal.toFixed(2)}`
+ resp2.innerText = `${numcontas} conta(s) - Total R$: ${valTotal.toFixed(2)}`
 
  frm.inDescricao.value = ""
  frm.inValor.value = ""
